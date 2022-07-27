@@ -16,5 +16,9 @@ export const MovieDetail = () => {
     getMovie();
   }, []);
 
-  return <div><MovieDetailComp movie={movie}/></div>;
+  return (
+      <div>
+        <MovieDetailComp movie={movie}/>
+      </div>
+  )
 };
